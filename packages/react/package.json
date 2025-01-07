@@ -5,8 +5,8 @@
   "module": "./'dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
-    "dev": "tsup src/index.ts --watch --format cjs,esm --dts"
+    "build": "tsup src/index.tsx --format cjs,esm --dts --external react",
+    "dev": "tsup src/index.tsx --watch --format cjs,esm --dts --external react"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +16,12 @@
     "typescript": "^5.7.2"
   },
   "devDependencies": {
+    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "react": "^19.0.0",
     "tsup": "^8.3.5"
   }
 }
