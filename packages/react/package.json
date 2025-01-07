@@ -6,13 +6,15 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.tsx --format cjs,esm --dts --external react",
-    "dev": "tsup src/index.tsx --watch --format cjs,esm --dts --external react"
+    "dev": "tsup src/index.tsx --watch --format cjs,esm --dts --external react",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "description": "",
   "dependencies": {
+    "@stitches/react": "^1.2.8",
     "typescript": "^5.7.2"
   },
   "devDependencies": {
