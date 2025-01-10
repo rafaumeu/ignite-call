@@ -198,9 +198,15 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 <div align="center">
 
-### Built with 💜 by Rafael Zendron
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael%20Zendron-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rafael-dias-zendron-528290132/)
-[![GitHub](https://img.shields.io/badge/GitHub-rafaumeu-black?style=for-the-badge&logo=github)](https://github.com/rafaumeu)
+ <img src="https://github.com/rafaumeu.png" width="100" height="100" style="border-radius: 50%;">
+</p>
+<h3 align="center">Built with 💜 by Rafael Zendron</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/rafael-dias-zendron-528290132/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/rafaumeu">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
 
 </div>
