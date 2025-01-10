@@ -17,3 +17,5 @@ export interface BoxProps extends ComponentProps<typeof Box> {
 export const BoxComponent: React.FC<BoxProps> = ({ children, ...props }) => {
   return <Box {...props}>{children}</Box>
 }
+
+Box.displayName = 'Box'

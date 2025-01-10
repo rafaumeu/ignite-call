@@ -36,3 +36,4 @@ export interface TextProps extends ComponentProps<typeof Text> {
 export const TextComponent: React.FC<TextProps> = ({ children, ...props }) => {
   return <Text {...props}>{children}</Text>
 }
+TextComponent.displayName = 'Text'

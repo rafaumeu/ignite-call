@@ -7,6 +7,7 @@ import {
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
+  tags: ['autodocs'],
   title: 'Form/Text Area',
   component: TextArea,
   args: {},

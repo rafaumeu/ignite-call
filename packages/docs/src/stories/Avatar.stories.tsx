@@ -2,6 +2,7 @@ import { Avatar, AvatarProps } from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
+  tags: ['autodocs'],
   title: 'Data display/Avatar',
   component: Avatar,
   args: {

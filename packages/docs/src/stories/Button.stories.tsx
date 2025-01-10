@@ -3,6 +3,7 @@ import { ArrowRight } from '@phosphor-icons/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
+  tags: ['autodocs'],
   title: 'Form/Button',
   component: Button,
   args: {
