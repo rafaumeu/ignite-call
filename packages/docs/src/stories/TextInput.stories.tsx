@@ -1,4 +1,9 @@
-import { Box, Text, TextInput, TextInputProps } from '@ignite-ui/react'
+import {
+  BoxComponent,
+  TextComponent,
+  TextInput,
+  TextInputProps,
+} from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -8,13 +13,13 @@ export default {
   decorators: [
     (Story) => {
       return (
-        <Box
+        <BoxComponent
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <Text size="sm">Email address</Text>
+          <TextComponent size="sm">Email address</TextComponent>
           {Story()}
-        </Box>
+        </BoxComponent>
       )
     },
   ],

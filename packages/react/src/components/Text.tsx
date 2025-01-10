@@ -1,4 +1,4 @@
-import { ComponentProps, ElementType } from 'react'
+import { ComponentProps, ElementType, ReactNode } from 'react'
 import { styled } from '../styles'
 
 export const Text = styled('p', {
@@ -30,5 +30,9 @@ export const Text = styled('p', {
 
 export interface TextProps extends ComponentProps<typeof Text> {
   as?: ElementType
-  children?: React.ReactNode
+  children?: ReactNode
+}
+
+export const TextComponent: React.FC<TextProps> = ({ children, ...props }) => {
+  return <Text {...props}>{children}</Text>
 }
