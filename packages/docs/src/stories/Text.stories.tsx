@@ -1,9 +1,5 @@
-import { TextProps as OriginalTextProps, Text } from '@ignite-ui/react'
+import { Text, TextProps } from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
-
-interface TextProps extends OriginalTextProps {
-  children?: React.ReactNode
-}
 
 export default {
   title: 'Typography/Text',

@@ -1,10 +1,5 @@
-import { Avatar, AvatarProps as OriginalAvatarProps } from '@ignite-ui/react'
+import { Avatar, AvatarProps } from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
-
-interface AvatarProps extends OriginalAvatarProps {
-  children?: React.ReactNode
-  src?: string
-}
 
 export default {
   title: 'Data display/Avatar',

@@ -4,9 +4,11 @@
     "jsx": "react-jsx",
     "lib": [
       "dom",
-      "es2015"
+      "es2017"
     ],
     "module": "ESnext",
-    "target": "es6"
+    "target": "es6",
+    "allowImportingTsExtensions": true,
+    "noEmit": true
   }
 }
