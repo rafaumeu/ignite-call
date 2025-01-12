@@ -1,5 +1,34 @@
 # @ignite-ui/react
 
+## 2.0.1
+
+### Patch Changes
+
+- Summary of Changes
+
+  1. Release Script Adjustments
+     Updated the release script in package.json to exclude the docs folder from the Turbo build process (--filter=!docs).
+  2. Improvements to the TextInput Component
+     Added ref support to the TextInput component using forwardRef.
+     Included a default placeholder in the withPrefix story for TextInput.
+     Added a size property to the TextInputContainer, with sm and md variants.
+     Adjusted the styling of TextInputContainer to improve alignment and responsiveness.
+  3. Adjustments to the Avatar Component
+     Increased the default size of Avatar from $12 to $16.
+  4. Improvements to the Box Component
+     Increased the default padding from $4 to $6.
+  5. Adjustments to the Button Component
+     Added a focus style with box-shadow to improve accessibility.
+  6. Improvements to the CheckBox Component
+     Adjusted the focus style to also apply when the checkbox is checked (data-state="checked").
+  7. Export of Global Styles
+     Added the export of styles in the index.tsx file of the react package.
+     Impact of Changes
+     Improved Usability: Adjustments to the TextInput, Button, and CheckBox components aim to enhance user experience and accessibility.
+     Visual Consistency: Increased sizes and spacing (Avatar, Box) to align with the design system.
+     Flexibility: Added size variants to TextInput for greater customization.
+     Build Optimization: Excluding the docs folder from the build process speeds up deployment.
+
 ## 2.0.0
 
 ### Major Changes
