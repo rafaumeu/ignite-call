@@ -3,7 +3,7 @@ import {
   TextArea,
   TextAreaProps,
   TextComponent,
-} from '@ignite-ui/react'
+} from '@rafaumeu-ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

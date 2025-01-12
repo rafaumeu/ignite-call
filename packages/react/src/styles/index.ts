@@ -5,7 +5,7 @@ import {
   fontWeights,
   radii,
   space,
-} from '@ignite-ui/tokens'
+} from '@rafaumeu-ignite-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 import { lineHeights } from '../../../tokens/src/line-heights'
 
