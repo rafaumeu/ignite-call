@@ -4,6 +4,7 @@
     "packages/*"
   ],
   "packageManager": "yarn@1.22.22",
+  "license": "MIT",
   "scripts": {
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
